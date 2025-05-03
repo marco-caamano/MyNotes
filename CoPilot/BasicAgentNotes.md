@@ -7,3 +7,5 @@ Sometimes it will use old data, to force it to fetch a recent version use the ``
 Please write a sample python script that will list all my Github repos. Use the API described in #fetch https://docs.github.com/en/rest?apiVersion=2022-11-28
 ```
 
+## Use a Product Requirements Document PRD
+Create a PRD file, basically a markdown file PRD.md that will list all the projects requirements
