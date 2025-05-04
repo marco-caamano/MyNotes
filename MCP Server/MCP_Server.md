@@ -25,3 +25,24 @@ uv run mcp dev main.py
 npx @modelcontextprotocol/inspector uv run --with mcp[cli] mcp run ~/projects/mcp_server1/main.py
 ```
 
+## VSCode Integration
+To add an MCP Server to VsCode create the file ```.vscode/mcp.json``` and use the template:
+
+```
+{
+    "servers": {
+        "my-mcp-server-c7db4b2e": {
+            "type": "stdio",
+            "command": "uv",
+            "args": [
+                "run",
+                "--with",
+                "mcp[cli]",
+                "mcp",
+                "run",
+                "~/projects/mcp_server1/main.py"
+            ]
+        }
+    }
+}
+```
